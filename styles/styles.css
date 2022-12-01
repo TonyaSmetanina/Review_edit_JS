@@ -1,0 +1,83 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+.card-comment{
+    max-width: 90%;
+    background-color: #F2DEDC;;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+div {
+    border: 1px solid rgba(0, 0, 0, 0.446);
+    padding: 5px;
+    margin: 8px;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.modal {
+    width: 300px;
+    height: 300px;
+    background-color: #6894A6;
+    color: #ffff;
+    font-weight: bold;
+    top: 50px;
+    display: none;
+    position: fixed;
+    padding: 15px;
+    margin: 0 auto;
+    left: 100px;
+
+}
+
+div.modal{
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+div.modal > div {
+    /* padding: 1rem; */
+    /* background-color: white; */
+
+}
+
+.close {
+    border: none;
+}
+
+.close img{
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+button {
+    background-color: #ffff;
+    border: 1px solid #6894A6;
+    border-radius: 6px;
+    padding: 5px 8px;
+}
+
+button:hover {
+    background-color: #6894A6;
+    color: #ffff;
+}
+
+button:focus{
+    background-color: #6894A6;
+    color: #ffff;
+
+}
+
+
+
